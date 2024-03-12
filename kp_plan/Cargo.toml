@@ -1,6 +1,5 @@
-workspace = { members = ["kp_graph", "kp_plan"] }
 [package]
-name = "kp_platform"
+name = "kp_plan"
 version = "0.1.0"
 edition = "2021"
 
