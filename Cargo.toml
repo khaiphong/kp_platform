@@ -1,4 +1,4 @@
-workspace = { members = ["kp_graph", "kp_plan"] }
+workspace = { members = ["co_loc", "home", "kp_ai", "kp_db", "kp_eip", "kp_graph", "kp_mu", "kp_plan", "vault"] }
 [package]
 name = "kp_platform"
 version = "0.1.0"
