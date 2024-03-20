@@ -2,13 +2,20 @@ use std::collections::HashMap;
 
 fn main() {
  /* 
-  Starting at a naturally qualified person, Hashmaps of f, y, x = 0, We use immutable variable
-  instead of self-evaluated defined const as starting points of Fibonacci Nunber for 
-  Prajna >< AGI, then shadowing and modeling.
+  Starting at a naturally qualified person, Hashmaps of f = 0. But _x and _y are in wide
+  ranges for negative to positive based on the self-evaluated plus expert opinions of
+  y_evaluation and x_evaluation .  We use mutable variable instead of self-evaluated defined
+  const as starting points of Fibonacci Nunber for Prajna >< AGI, then modeling.
+
+  For elites currently a person, the evaluation are intended to help that person moving from
+  evolution then degeneration to the right positive evaluation with oservable attributes:
+
  */
-  let _y: i32 = 0;    // qualified person
-  let _x: i32 = 0;
-  let _f: i32 = 0;
+ 
+   let mut _f: i32 = 0;    // qualified person
+   let mut _y: i32 = 0;    // to be evaluated in blockchain of user self-evaluation and expert
+   let mut _x: i32 = 0;    //   opinions from fact-base tracked records in engaged living.
+  
 //  let _y = 6;       Y(6) = 8 Shadowing to the target values of the founder
 //  let _x = 7;       X(7) = 13
 //  let _f = 8;       F(8) = 21
@@ -72,32 +79,41 @@ fn main() {
   x.insert(6, "Using cosmic energy for self-protection".to_string());   // deeper innovation
   x.insert(7, "Directing cosmic energy to help others".to_string());    // deeper innovation
   
-  x_evaluation(x); // transcendental Awareness based on subjective judgements of ARL 
-  y_evaluation(y); // transcendental Inner Peace based on the outcome of ARL
+  // establish a prajna council for scientifically studying and rating visible data
+  _y = y_evaluation(y); // transcendental Inner Peace based on the outcomes in engaged living
+  _x = x_evaluation(x); // transcendental Awareness based on self evaluations and assessments
+
   
-  f_evaluation(); // suggested Inner Space cultivation based on accumulated recorded data
+  _f = f_evaluation(f); // suggested Inner Space cultivation based on recorded data
    
 }
 
-fn x_evaluation(x: HashMap<i32, String>) {
-
-   println!("Attributes of Transcendental Awareness");
-   for (key, value) in &x {
-        println!("{key}: {value}");
-    }
-
-}
-
-fn y_evaluation(y: HashMap<i32, String>) {
+fn y_evaluation(y: HashMap<i32, String>) -> i32 { // return eaaluated value to the blockchain
 
    println!("Attributes of Transcendental Inner Peace");
    for (key, value) in &y {
         println!("{key}: {value}");
     }
-
+    
+    return 0;
 }
 
-fn f_evaluation() {
+fn x_evaluation(x: HashMap<i32, String>) -> i32 { // return eaaluated value to the blockchain
+   println!("Attributes of Transcendental Awareness");
+   for (key, value) in &x {
+        println!("{key}: {value}");
+    }
+    
+    
+    return 0;
+}
+
+fn f_evaluation(f: HashMap<i32, String>) -> i32 {
 
     println!("Suggested Inner Space for caltivation");
+       for (key, value) in &f {
+        println!("{key}: {value}");
+    }
+    
+    return 0;
 }
