@@ -88,7 +88,7 @@ fn main() {
    
 }
 
-fn y_evaluation(y: HashMap<i32, String>) -> i32 { // return eaaluated value to the blockchain
+fn y_evaluation(y: HashMap<i32, String>) -> i32 { // return evaluated value to the blockchain
 
    println!("Attributes of Transcendental Inner Peace");
    for (key, value) in &y {
@@ -98,7 +98,7 @@ fn y_evaluation(y: HashMap<i32, String>) -> i32 { // return eaaluated value to t
     return 0;
 }
 
-fn x_evaluation(x: HashMap<i32, String>) -> i32 { // return eaaluated value to the blockchain
+fn x_evaluation(x: HashMap<i32, String>) -> i32 { // return evaluated value to the blockchain
    println!("Attributes of Transcendental Awareness");
    for (key, value) in &x {
         println!("{key}: {value}");
