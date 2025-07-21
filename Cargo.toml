@@ -1,3 +1,3 @@
 [workspace]
 resolver = "3"
-members = ["platform", "lib"]
+members = ["platform", "lib", "os", "db", "event", "storage", "hub", "ppu"]
