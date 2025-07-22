@@ -1,3 +1,3 @@
 # storage
 
-Secure cloud Storage crate.
+The crate of cloud Storage.
