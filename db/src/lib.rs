@@ -10,7 +10,7 @@ struct User {
 
 	aboutme: String,  
 	known_as: String,
-	url: String,           // assigned IPv6
+	url_workspace: String,           // assigned IPv6
 	chip_id: Vec<String>,  // firmware id of IamX
 	device: HashMap<String, String>,  // to be replaced by db_map_container	
 	password: String,
@@ -27,7 +27,7 @@ struct User {
 
 // collect required data
 fn build_user(username: String, email: String, id: String, aboutme: String, known_as: String,
-	url: String, chip_id: Vec<String>, device: HashMap<String, String>, password: String,
+	url_workspace: String, chip_id: Vec<String>, device: HashMap<String, String>, password: String,
 	recovered: String, birthdate: String, gender: String, ethnicity: String, 
 	keywords: String, home_community: String, current_community: String) -> User {
 	User {
@@ -37,7 +37,7 @@ fn build_user(username: String, email: String, id: String, aboutme: String, know
 		id,
 		aboutme,
 		known_as,
-		url,
+		url_workspace,
 		chip_id,
 		device,
 		password,
