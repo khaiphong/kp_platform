@@ -9,6 +9,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9555578bc9e57714c812a1f84e4fc5b4d21fcb063490c624de019f7464c91268"
 
 [[package]]
+name = "commerce"
+version = "0.1.0"
+
+[[package]]
 name = "db"
 version = "0.1.0"
 
@@ -115,6 +119,10 @@ checksum = "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c"
 dependencies = [
  "getrandom",
 ]
+
+[[package]]
+name = "social"
+version = "0.1.0"
 
 [[package]]
 name = "storage"
