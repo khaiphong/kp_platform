@@ -1,0 +1,1 @@
+/home/batien/Kp/GitSrc/github.com/khaiphong/kp_platform/target/debug/libplatform.rlib: /home/batien/Kp/GitSrc/github.com/khaiphong/kp_platform/lib/src/lib.rs /home/batien/Kp/GitSrc/github.com/khaiphong/kp_platform/platform/src/lib.rs
